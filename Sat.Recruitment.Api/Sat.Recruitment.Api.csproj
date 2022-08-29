@@ -10,10 +10,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Helpers\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Abstract\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="Files\Users.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Abstract\" />
+  </ItemGroup>
 </Project>
